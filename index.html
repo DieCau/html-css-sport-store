@@ -11,10 +11,68 @@
     content="Deportivo, Ropa Deportiva, Calzado, Remeras, Short, Ejercicio, Deporte, Promociones, Descuentos" />
   <link rel="stylesheet" href="./css/bootstrap.min.css" />
   <link rel="stylesheet" href="./css/styles.css" />
-  <title>RollingSport</title>
+  <title>Sport Store</title>
 </head>
 
 <body>
-
+     <header>
+      <nav
+      class="navbar navbar-expand-lg bg-body-tertiary"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand marca" href="../index.html">RollingSport</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="../index.html"
+              >Inicio</a
+            >
+            <a class="nav-link" href="./pages/galeria.html">Productos</a>
+            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            <a class="nav-link" href="./pages/Contacto.html">Contacto</a>
+          </div>
+          <div class="navbar-nav ms-auto gap-3">
+            <form class="d-flex gap-3 mb-1" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar..."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+              <a href="./pages/carrito de compras.html"
+                ><button class="btn btn-outline-primary">
+                  <i class="bi bi-cart"></i></button
+              ></a>
+            </form>
+          </div>
+          <div class="navbar-nav ms-auto gap-1">
+            <button
+              class="btn btn-primary"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#modalingresocuenta"
+            >
+              Login
+            </button>
+              <a type="button" class="btn btn-primary" href="./pages/registro.html"  >Crear Cuenta</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </header>
 </body>
 </html>
