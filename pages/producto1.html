@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author"
-    content="Caucota Diego" />
+  <meta name="author" content="Caucota Diego" />
   <meta name="description" content="Pagina E-Commerce, enfocada en la comercializacion de indumentaria deportiva. " />
   <meta name="keywords"
     content="Deportivo, Ropa Deportiva, Calzado, Remeras, Short, Ejercicio, Deporte, Promociones, Descuentos" />
@@ -15,65 +14,113 @@
 </head>
 
 <body>
-     <header>
-      <nav
-        class="navbar navbar-expand-lg bg-body-tertiary"
-        data-bs-theme="dark"
-      >
-        <div class="container">
-          <a class="navbar-brand marca" href="../index.html">Sport Store</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="../index.html"
-                >Inicio</a
-              >
-              <a class="nav-link" href="./nosotros.html">Nosotros</a>
-              <a class="nav-link" href="./galeria.html">Productos</a>
-              <a class="nav-link" href="./contacto.html">Contacto</a>
-            </div>
-            <div class="navbar-nav ms-auto gap-3">
-              <form class="d-flex gap-3 mb-1" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Buscar..."
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-primary" type="submit">
-                  <i class="bi bi-search"></i>
-                </button>
-                <a href="./carritoCompras.html"
-                  ><button class="btn btn-outline-primary">
-                    <i class="bi bi-cart"></i></button
-                ></a>
-              </form>
-            </div>
-            <div class="navbar-nav ms-auto gap-1">
-              <button
-                class="btn btn-primary"
-                type="button"
-                data-bs-toggle="modal"
-                data-bs-target="#modalcrearcuenta"
-              >
-                Login
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand marca" href="../index.html">Sport Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            <a class="nav-link" href="./galeria.html">Productos</a>
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+          </div>
+          <div class="navbar-nav ms-auto gap-3">
+            <form class="d-flex gap-3 mb-1" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search" />
+              <button class="btn btn-outline-primary" type="submit">
+                <i class="bi bi-search"></i>
               </button>
-              <button type="button" class="btn btn-primary">Crear Cuenta</button>
-            </div>
+              <a href="./carritoCompras.html"><button class="btn btn-outline-primary">
+                  <i class="bi bi-cart"></i></button></a>
+            </form>
+          </div>
+          <div class="navbar-nav ms-auto gap-1">
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalcrearcuenta">
+              Login
+            </button>
+            <button type="button" class="btn btn-primary">Crear Cuenta</button>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="text-center">Campera de Trekking</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center gy-3">
+          <div>
+            <figure>
+              <img src="../img/campera-de-hombre-viggo.jpg" class="img-fluid" alt="Imagen del producto">
+            </figure>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 gy-3">
+          <div>
+            <h3>Caracteristicas:</h3>
+            <div class="table-responsive">
+              <table class="table table-striped">
+                <thead>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Color</td>
+                    <td>Azul</td>
+                  </tr>
+                  <tr>
+                    <td>Talles</td>
+                    <td>S-M-L</td>
+                  </tr>
+                  <tr>
+                    <td>Actividad</td>
+                    <td>Trekking - Montañismo</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="text-justify-custom">
+            <h3>Descripción:</h3>
+            <p>Tela exterior impermeable 100% poliéster, con relleno de microfibra de alta retención térmica. Lo que
+              dificulta que el tejido absorba favoreciendo la impermeabilidad y antimanchas.</p>
+            <p>No requiere uso de plancha.</p>
+            <p>Ideal para la realización de deportes de invierno (ski, snowboard).</p>
+            <ul>
+              <li>Capucha fija con ajuste.</li>
+              <li>Bolsillos internos.</li>
+              <li>Cierres impermeables.</li>
+              <li>Ventilación axilar.</li>
+              <li>Costuras termoselladas.</li>
+            </ul>
+          </div>
+          <p class="fs-4 text-primary">$35.000,00</p>
+          <div class="mb-4">
+            <a href="../pages/carrito de compras.html" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <section>
+        <h2 class="mb-4">Comentarios:</h2>
+        <div>
+          <h5>Juan Pérez</h5>
+          <small class="text-muted">Hace 2 días</small>
+          <p>Excelente relación precio calidad.</p>
+          <h5>Maria López</h5>
+          <small class="text-muted">Hace 5 días</small>
+          <p>Muy buena calidad del producto. ⭐⭐⭐⭐⭐</p>
+          <h5>Carlos González</h5>
+          <small class="text-muted">Hace 1 semana</small>
+          <p>La atención fue increíble y el producto era lo que esperaba.</p>
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
 
 </html>
